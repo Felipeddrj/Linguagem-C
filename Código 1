@@ -1,0 +1,10 @@
+// Código para aula de introdução à C++
+// Felipe Santos, estudante da Unicarioca
+#include <stdio.h>
+int main() {
+    char nome[100];
+    printf("Digite seu Nome: ");
+    scanf("%s", nome);
+    printf("Seu nome eh: %s.", nome);
+    return 0;
+}
